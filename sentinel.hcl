@@ -1,5 +1,5 @@
 module "tfconfig-functions" {
-  source = "common-functions/tfconfig-functions.sentinel"
+  source = "tfconfig-functions.sentinel"
 }
 policy "restrict-providerCredentials" {
   enforcement_level = "hard-mandatory"
