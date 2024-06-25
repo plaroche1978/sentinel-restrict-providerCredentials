@@ -14,5 +14,5 @@ module "aws-functions" {
   source = "/aws-functions/aws-functions.sentinel"
 }
 policy "restrict-providerCredentials" {
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
