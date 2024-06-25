@@ -11,7 +11,7 @@ module "tfconfig-functions" {
 }
 
 module "aws-functions" {
-  source = "/aws-functions/aws-functions.sentinel"
+  source = "aws-functions/aws-functions.sentinel"
 }
 policy "restrict-providerCredentials" {
   enforcement_level = "soft-mandatory"
